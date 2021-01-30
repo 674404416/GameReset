@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Single<T> where T : new()
+public class Single<T> : MonoBehaviour where T : new()
 {
     public static T I
     {
