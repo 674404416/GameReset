@@ -13,7 +13,7 @@ public class GameEvent
     public static void RegistryEvent(TEventType type, Action<object[]> callback, object listener)
     {
         var table = GetContainer(type);
-        table[listener] += callback;
+        table[listener] = callback;
     }
 
     public static void FireEvent(TEventType type, params object[] args)

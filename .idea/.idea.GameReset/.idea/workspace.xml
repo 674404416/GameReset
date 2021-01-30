@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c9a51ed-34ac-4e09-a832-84e5dfe9d1fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameReset.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GameReset.sln" afterDir="false" />
     </list>
@@ -33,11 +34,11 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/tes1.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nlkVgvwT0WFfepKYLpWdEksG6r" />
@@ -90,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611972173996</updated>
-      <workItem from="1611972230577" duration="5281000" />
+      <workItem from="1611972230577" duration="6081000" />
     </task>
     <servers />
   </component>
