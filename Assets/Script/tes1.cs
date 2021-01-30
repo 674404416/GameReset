@@ -14,7 +14,7 @@ public class tes1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(t2.I.a);
+        
     }
 
     public void test(object[] args)
