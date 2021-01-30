@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c9a51ed-34ac-4e09-a832-84e5dfe9d1fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/tes1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/tes1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameReset.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GameReset.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5CAC3F76-5EFB-4A71-98FB-BE8126E46E77/0a/f2c4e798/EventType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Event/Single.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/tes1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/38/5310e057/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -35,11 +39,13 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/tes1.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/CameraFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/t2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/tes1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/Event/Single.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nlkVgvwT0WFfepKYLpWdEksG6r" />
@@ -92,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611972173996</updated>
-      <workItem from="1611972230577" duration="6428000" />
+      <workItem from="1611972230577" duration="7514000" />
     </task>
     <servers />
   </component>

@@ -10,10 +10,12 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="Event" t="Include">
             <e p="GameEvent.cs" t="Include" />
+            <e p="Single.cs" t="Include" />
             <e p="TEventType.cs" t="Include" />
           </e>
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
+          <e p="t2.cs" t="Include" />
           <e p="tes1.cs" t="Include" />
         </e>
       </e>
