@@ -19,6 +19,7 @@ public class GameEvent
     public static void FireEvent(TEventType type, params object[] args)
     {
         var table = m_Events[(int) type];
+        if (table == null) return;
         foreach (var item in table)
         {
             item.Value.Invoke(args);

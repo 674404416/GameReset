@@ -5,6 +5,8 @@ using UnityEngine;
 public class ObjectController : MonoBehaviour
 {
     // Start is called before the first frame update
+    private float originscaleX,originscaleY;
+
     private float scaleMax = 1.2f;
     private float scaleTime = 0.25f;
     private float countTime;
@@ -12,6 +14,8 @@ public class ObjectController : MonoBehaviour
     public GameObject textBox;
     private void Awake()
     {
+        originscaleX = transform.localScale.x;
+        originscaleY = transform.localScale.y;
     }
     void Start()
     {
@@ -26,7 +30,7 @@ public class ObjectController : MonoBehaviour
     private void OnMouseExit()
     {
         isMouseOver = false;
-        gameObject.transform.localScale = new Vector2(1, 1);
+        gameObject.transform.localScale = new Vector2(originscaleX, originscaleY);
         countTime = 0;
     }
 
@@ -53,7 +57,7 @@ public class ObjectController : MonoBehaviour
         if(countTime< scaleTime)
         {
             countTime += Time.fixedDeltaTime;
-            gameObject.transform.localScale = new Vector2(1+(scaleMax-1)/scaleTime* countTime, 1+(scaleMax - 1) / scaleTime * countTime);
+            gameObject.transform.localScale = new Vector2((1+(scaleMax-1)/scaleTime* countTime)*originscaleX, (1+(scaleMax - 1) / scaleTime * countTime)*originscaleY);
         }
     }
 
