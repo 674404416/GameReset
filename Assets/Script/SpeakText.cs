@@ -35,5 +35,7 @@ public class SpeakText : MonoBehaviour
             text.text += content[i];
             yield return new WaitForSeconds(0.15f);
         }
+        yield return new WaitForSeconds(5.0f);
+        gameObject.SetActive(false);
     }
 }
