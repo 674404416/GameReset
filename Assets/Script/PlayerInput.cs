@@ -13,6 +13,10 @@ public class PlayerInput : MonoBehaviour
     public bool leftAttack = false;
     public bool rightAttack = false;
 
+    public bool banHor = false;
+    public bool banVer = false;
+    public bool bRight = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +26,20 @@ public class PlayerInput : MonoBehaviour
     void Update()
     {
         leftAttack = rightAttack = false;
-        Horizontal = Input.GetAxis("Horizontal");
-        Vertical = Input.GetAxis("Vertical");
-        if (Input.GetButton("Fire1"))
+        if (!banHor)
+        {
+            Horizontal = Input.GetAxis("Horizontal");
+            if (Horizontal < 0f) bRight = false;
+            if (Horizontal > 0f) bRight = true;
+        }
+
+        if (!banVer) Vertical = Input.GetAxis("Vertical");
+        if (Input.GetButtonDown("Fire1"))
         {
             leftAttack = true;
         }
 
-        if (Input.GetButton("Fire2"))
+        if (Input.GetButtonDown("Fire2"))
         {
             rightAttack = true;
         }

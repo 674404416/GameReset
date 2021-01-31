@@ -5,6 +5,7 @@ using UnityEngine;
 public enum TEventType
 {
     TestOne,
+    NpcTalk,
     //事件加在上面
     MaxEventNum,
 }

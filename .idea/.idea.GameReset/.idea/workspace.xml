@@ -5,10 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameReset/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.addon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.addon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs.addon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs.addon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/tes1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/tes1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameReset.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GameReset.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +41,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/tes1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/38/5310e057/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NpcTalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/f1/efaa4a19/EqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/CameraFollow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/t2.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/tes1.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/Event/Single.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/Event/TEventType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/Event/GameEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PlayerInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/NpcTalk.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nlkVgvwT0WFfepKYLpWdEksG6r" />
@@ -80,10 +91,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30116">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="30116" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -99,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611972173996</updated>
       <workItem from="1611972230577" duration="7514000" />
+      <workItem from="1612058933994" duration="3370000" />
     </task>
     <servers />
   </component>
@@ -117,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
